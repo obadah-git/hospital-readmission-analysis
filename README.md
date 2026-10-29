@@ -30,27 +30,27 @@ The WGU project documents describe patient-level hospital encounter data with de
 ## Dashboard Preview
 ![Hospital Readmission Analysis Tableau Dashboard](images/hospital_readmission_dashboard.png)
 
-## Dashboard Features
+ Dashboard
 
-### 1. Readmission Rate
+ 1. Readmission Rate
 Displays the readmission rate to provide a high-level view of performance. Confirm whether the current filters are applied before describing the value as an overall hospital-wide rate.
 
-### 2. Readmission by Service Type
+ 2. Readmission by Service Type
 Compares readmission rates across services shown in the dashboard, including Intravenous, Blood Work, MRI, and CT Scan.
 
-### 3. Readmission by Age Group
+ 3. Readmission by Age Group
 Compares readmission patterns across age categories.
 
-### 4. Geographic Area and Gender
+ 4. Geographic Area and Gender
 Explores patterns across rural, suburban, and urban areas for the selected gender.
 
-### 5. Interactive Filters
+ 5. Interactive Filters
 Includes age-group and gender filters so users can explore selected patient populations.
 
-### 6. Key Performance Indicators
+ 6. Key Performance Indicators
 Displays total readmissions and average length of stay.
 
-## Initial Observations from the Dashboard Screenshot
+ Initial Observations from the Dashboard Screenshot
 The supplied screenshot displays:
 - Average length of stay: 34.46 days
 - Total readmissions: 3,669
@@ -58,28 +58,26 @@ The supplied screenshot displays:
 - Service-level readmission rates ranging from 35.2% to 39.8% in the visible chart
 - Age-group readmission rates ranging from 34.4% to 37.9% in the visible chart
 
-**Important:** The screenshot has filters selected for Male and ages 60, 70, and 80. These displayed values may therefore represent a filtered subset, not the entire dataset. Verify the filters and calculations in Tableau before presenting these as overall results.
+Important:** The screenshot has filters selected for Male and ages 60, 70, and 80. These displayed values may therefore represent a filtered subset, not the entire dataset. Verify the filters and calculations in Tableau before presenting these as overall results.
 
-## Data Storytelling and Accessibility
+ Data Storytelling and Accessibility
 The dashboard uses a top-down sequence, beginning with high-level indicators and then showing more detailed comparisons. Design considerations described in the project include clear labels, readable text, consistent formatting, and color choices intended to be accessible to users with color-vision deficiencies.
 
-## Business Value
+ Business Value
 The dashboard helps users explore readmission patterns and identify questions for further investigation. Findings may inform discussions about discharge planning, follow-up care, and operational improvement, subject to further validation.
 
-## Limitations
+ Limitations
 - Findings depend on the quality and representativeness of the source dataset.
 - Differences between groups do not necessarily indicate causation.
 - The dashboard is an exploratory tool and should not be used alone to make clinical decisions.
 - Dataset source and redistribution permissions should be documented before public release.
 
-## Project Files
+ Project Files
 - `README.md` — project description and dashboard documentation
 - `images/hospital_readmission_dashboard.png` — dashboard screenshot
 
 If you choose to publish the Tableau workbook, first check that it contains no identifiable patient information and that you have permission to share the workbook and its underlying data.
 
-## Author
+
 Obadah Elabhari
 
-Master of Science in Data Analytics — Decision Process Engineering  
-Western Governors University
