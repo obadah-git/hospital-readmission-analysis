@@ -1,4 +1,4 @@
-# Hospital Readmission Analysis | Tableau
+ Hospital Readmission Analysis | Tableau
 
 ## Project Overview
 This project uses Tableau to explore hospital readmission patterns and present healthcare performance indicators through an interactive dashboard. It is designed to help hospital leadership compare readmission patterns across patient groups and services and identify areas for further investigation.
@@ -72,11 +72,6 @@ The dashboard helps users explore readmission patterns and identify questions fo
 - The dashboard is an exploratory tool and should not be used alone to make clinical decisions.
 - Dataset source and redistribution permissions should be documented before public release.
 
- Project Files
-- `README.md` — project description and dashboard documentation
-- `images/hospital_readmission_dashboard.png` — dashboard screenshot
-
-If you choose to publish the Tableau workbook, first check that it contains no identifiable patient information and that you have permission to share the workbook and its underlying data.
 
 
 Obadah Elabhari
